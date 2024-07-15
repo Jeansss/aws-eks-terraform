@@ -11,10 +11,10 @@ terraform {
   required_version = ">= 0.13"
 
   cloud {
-    organization = "Postech-YJ"
+    organization = "Postech-YJ2"
 
     workspaces {
-      name = "amazon-eks"
+      name = "amazon-eks-terraform"
     }
   }
 }
