@@ -7,23 +7,23 @@ variable "labRole" {
 }
 
 variable "projectName" {
-  default = "order-manager"
+  default = "eks-cluster"
 }
 
 variable "subnetA" {
-  default = "subnet-04c1c1a9b7d23a9a1"
+  default = "subnet-096bc6e089f60ea50"
 }
 
 variable "subnetB" {
-  default = "subnet-06cc5de65c1b2bf58"
+  default = "subnet-056541b9e90a5ed91"
 }
 
 variable "subnetC" {
-  default = "subnet-005c005b8e3ce759b"
+  default = "subnet-0592a2778074d650e"
 }
 
 variable "vpcId" {
-  default = "vpc-091fb4b43ed6cddff"
+  default = "vpc-0ba50236e7baad214"
 }
 
 variable "instanceType" {
